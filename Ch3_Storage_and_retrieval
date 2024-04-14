@@ -1,0 +1,9 @@
+=> Why should you, as an application developer, care how the database handles storage and retrieval internally? 
+You’re probably not going to implement your own storage engine from scratch, but you do need to select a storage engine 
+that is appropriate for your application, from the many that are available. In order to tune a storage engine to 
+perform well on your kind of workload, you need to have a rough idea of what the storage engine is doing under the hood.
+
+In particular, there is a big difference between storage engines that are optimized for transactional workloads and 
+those that are optimized for analytics.
+
+=> 
